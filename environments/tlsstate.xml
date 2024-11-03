@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-11-03 20:17:06 by Eclipse SUMO sumo Version 1.21.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="c:\users\kaneh\Documents\COMP9444\SUMO_DQN\environments\cross/cross.net.xml"/>
+        <route-files value="c:\users\kaneh\Documents\COMP9444\SUMO_DQN\environments\cross/cross.rou.xml"/>
+        <additional-files value="c:\users\kaneh\Documents\COMP9444\SUMO_DQN\environments\cross/cross.tls.add.xml,c:\users\kaneh\Documents\COMP9444\SUMO_DQN\environments\input_additional.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="180"/>
+        <step-length value=".2"/>
+    </time>
+
+    <report>
+        <xml-validation value="never"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="52299"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="c:\users\kaneh\Documents\COMP9444\SUMO_DQN\environments\cross/cross.settings.xml"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<tlsStates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tlsstates_file.xsd">
+    <tlsState time="0.00" id="0" programID="manual" phase="0" state="rryrrrrryrrr"/>
+</tlsStates>
