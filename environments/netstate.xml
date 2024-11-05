@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-11-03 20:17:06 by Eclipse SUMO sumo Version 1.21.0
+<!-- generated on 2024-11-05 17:50:15 by Eclipse SUMO GUI Version 1.21.0
 <sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="c:\users\kaneh\Documents\COMP9444\SUMO_DQN\environments\cross/cross.net.xml"/>
-        <route-files value="c:\users\kaneh\Documents\COMP9444\SUMO_DQN\environments\cross/cross.rou.xml"/>
-        <additional-files value="c:\users\kaneh\Documents\COMP9444\SUMO_DQN\environments\cross/cross.tls.add.xml,c:\users\kaneh\Documents\COMP9444\SUMO_DQN\environments\input_additional.add.xml"/>
+        <net-file value="environments/cross/cross.net.xml"/>
+        <route-files value="environments/cross/cross.rou.xml"/>
+        <additional-files value="environments/cross/cross.tls.add.xml,environments/input_additional.add.xml"/>
     </input>
 
     <time>
@@ -20,15 +20,20 @@
     </report>
 
     <traci_server>
-        <remote-port value="52299"/>
+        <remote-port value="52649"/>
     </traci_server>
 
     <gui_only>
-        <gui-settings-file value="c:\users\kaneh\Documents\COMP9444\SUMO_DQN\environments\cross/cross.settings.xml"/>
+        <gui-settings-file value="environments/cross/cross.settings.xml"/>
     </gui_only>
 
 </sumoConfiguration>
 -->
 
 <meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+    <interval begin="0.00" end="0.20" id="dump">
+        <edge id="1fi" sampledSeconds="0.00" departed="1" arrived="0" entered="0" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+        <edge id="2fi" sampledSeconds="0.00" departed="1" arrived="0" entered="0" left="0" laneChangedFrom="0" laneChangedTo="0"/>
+    </interval>
+    <interval begin="0.00" end="0.20" id="hbefa"/>
 </meandata>
