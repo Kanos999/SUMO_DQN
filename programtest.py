@@ -12,11 +12,14 @@ traffic_light_ids = traci.trafficlight.getIDList()
 for tid in traffic_light_ids:
     traci.trafficlight.setProgram(tid, "0")
     # traci.trafficlight.setRedYellowGreenState(tid, "gggggggggggg")
+print("Traffic lights:", traffic_light_ids)
+
 
 step = 0
 while step < 1000:
     traci.simulationStep()
     step += 1
+    print("Step:", step)
 
 traci.close()
 
