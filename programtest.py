@@ -4,7 +4,21 @@ import sumolib
 environment = "environments/cross.sumocfg"
 sumobin = sumolib.checkBinary('sumo-gui')
 
-traci.start([sumobin, '-c', environment])  
+traci.start([sumobin, '-c', environment, '--start'])  
+
+print("Connected to TraCI")
+
+traffic_light_ids = traci.trafficlight.getIDList()
+for tid in traffic_light_ids:
+    traci.trafficlight.setProgram(tid, "0")
+    # traci.trafficlight.setRedYellowGreenState(tid, "gggggggggggg")
+
+step = 0
+while step < 1000:
+    traci.simulationStep()
+    step += 1
+
+traci.load(['-c', environment, '--start'])
 
 print("Connected to TraCI")
 
