@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-11-07 15:20:41 by Eclipse SUMO GUI Version 1.21.0
+<!-- generated on 2024-11-07 16:07:37 by Eclipse SUMO GUI Version 1.21.0
 <sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -25,3 +25,55 @@
     </gui_only>
 
 </sumoConfiguration>
+-->
+
+<tlsStates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tlsstates_file.xsd">
+    <tlsState time="0.00" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="0.40" id="0" programID="0" phase="6" state="rrrrrGrrrrrG"/>
+    <tlsState time="0.60" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="6.00" id="0" programID="0" phase="7" state="rrrrryrrrrry"/>
+    <tlsState time="6.20" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="7.60" id="0" programID="0" phase="6" state="rrrrrGrrrrrG"/>
+    <tlsState time="7.80" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="8.80" id="0" programID="0" phase="1" state="yygrrryygrrr"/>
+    <tlsState time="9.00" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="9.20" id="0" programID="0" phase="6" state="rrrrrGrrrrrG"/>
+    <tlsState time="9.40" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="12.00" id="0" programID="0" phase="0" state="GGgrrrGGgrrr"/>
+    <tlsState time="12.20" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="12.40" id="0" programID="0" phase="0" state="GGgrrrGGgrrr"/>
+    <tlsState time="12.80" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="13.60" id="0" programID="0" phase="0" state="GGgrrrGGgrrr"/>
+    <tlsState time="13.80" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="14.00" id="0" programID="0" phase="2" state="rrGrrrrrGrrr"/>
+    <tlsState time="14.20" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="15.00" id="0" programID="0" phase="0" state="GGgrrrGGgrrr"/>
+    <tlsState time="15.40" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="15.60" id="0" programID="0" phase="0" state="GGgrrrGGgrrr"/>
+    <tlsState time="16.20" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="16.40" id="0" programID="0" phase="0" state="GGgrrrGGgrrr"/>
+    <tlsState time="16.80" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="17.00" id="0" programID="0" phase="0" state="GGgrrrGGgrrr"/>
+    <tlsState time="18.60" id="0" programID="0" phase="7" state="rrrrryrrrrry"/>
+    <tlsState time="18.80" id="0" programID="0" phase="0" state="GGgrrrGGgrrr"/>
+    <tlsState time="19.80" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="20.00" id="0" programID="0" phase="0" state="GGgrrrGGgrrr"/>
+    <tlsState time="20.20" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="20.40" id="0" programID="0" phase="0" state="GGgrrrGGgrrr"/>
+    <tlsState time="20.80" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="21.00" id="0" programID="0" phase="0" state="GGgrrrGGgrrr"/>
+    <tlsState time="23.20" id="0" programID="0" phase="2" state="rrGrrrrrGrrr"/>
+    <tlsState time="23.40" id="0" programID="0" phase="7" state="rrrrryrrrrry"/>
+    <tlsState time="23.60" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="23.80" id="0" programID="0" phase="0" state="GGgrrrGGgrrr"/>
+    <tlsState time="24.20" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="24.40" id="0" programID="0" phase="0" state="GGgrrrGGgrrr"/>
+    <tlsState time="24.60" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="25.00" id="0" programID="0" phase="0" state="GGgrrrGGgrrr"/>
+    <tlsState time="25.40" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="25.80" id="0" programID="0" phase="0" state="GGgrrrGGgrrr"/>
+    <tlsState time="26.40" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="26.60" id="0" programID="0" phase="0" state="GGgrrrGGgrrr"/>
+    <tlsState time="26.80" id="0" programID="0" phase="4" state="rrrGGgrrrGGg"/>
+    <tlsState time="27.00" id="0" programID="0" phase="2" state="rrGrrrrrGrrr"/>
+    <tlsState time="27.20" id="0" programID="0" phase="0" state="GGgrrrGGg
