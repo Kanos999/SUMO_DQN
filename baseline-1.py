@@ -17,22 +17,26 @@ from sumo_rl import SumoEnvironment
 
 if __name__ == "__main__":
   env = SumoEnvironment(
-    net_file="environments/cross/cross.net.xml",
-    route_file="environments/cross/cross.rou.xml",
-    out_csv_name="outputs/cross-2/dqn",
+    net_file="intersection/environment.net.xml",
+    route_file="intersection/episode_routes.rou.xml",
+    out_csv_name="outputs/intersection/dqn",
     single_agent=True,
     use_gui=True,
-    num_seconds=100000,
+    num_seconds=5400,
+    yellow_time=4,
+    min_green=5,
+    max_green=60,
   )
 
   model = DQN(
     env=env,
     policy="MlpPolicy",
-    learning_rate=0.001,
+    learning_rate=1e-3,
     learning_starts=0,
+    buffer_size=50000,
     train_freq=1,
     target_update_interval=500,
-    exploration_initial_eps=0.05,
+    exploration_fraction=0.05,
     exploration_final_eps=0.01,
     verbose=1,
   )
