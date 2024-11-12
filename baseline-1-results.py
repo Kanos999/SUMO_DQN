@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Directory where all episode CSV files are stored
-directory = 'outputs/intersection'
+directory = 'outputs/intersection_DoubleDQN'
 
 # Initialize a list to store the average waiting time per episode
 average_waiting_times = []

@@ -19,9 +19,9 @@ from stable_baselines3 import DQN
 
 # Initialize the environment (SumoEnvironment)
 env = SumoEnvironment(
-    net_file=r"C:\Users\Pratik\Desktop\COMP9444\SUMO_DQN-main\SUMO_DQN-main\intersection\environment.net.xml",
-    route_file=r"C:\Users\Pratik\Desktop\COMP9444\SUMO_DQN-main\SUMO_DQN-main\intersection\episode_routes.rou.xml",
-    out_csv_name=r"C:\Users\Pratik\Desktop\COMP9444\SUMO_DQN-main\SUMO_DQN-main\outputs\intersection_DoubleDQN\dqn",
+    net_file=r"intersection\environment.net.xml",
+    route_file=r"intersection\episode_routes.rou.xml",
+    out_csv_name=r"outputs\intersection_DoubleDQN\dqn",
     single_agent=True,
     use_gui=True,
     num_seconds=5400,
