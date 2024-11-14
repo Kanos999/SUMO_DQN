@@ -31,13 +31,18 @@ if __name__ == "__main__":
   model = DQN(
     env=env,
     policy="MlpPolicy",
-    learning_rate=1e-3,
-    learning_starts=0,
-    buffer_size=50000,
-    train_freq=1,
-    target_update_interval=500,
-    exploration_fraction=0.05,
-    exploration_final_eps=0.01,
     verbose=1,
+    train_freq=16,
+    gradient_steps=8,
+    gamma=0.99,
+    exploration_fraction=0.2,
+    exploration_final_eps=0.07,
+    target_update_interval=5000,
+    learning_starts=1000,
+    buffer_size=25000,
+    batch_size=128,
+    learning_rate=4e-3,
+    policy_kwargs=dict(net_arch=[256, 256]),
+    double_q=False
   )
   model.learn(total_timesteps=100000)
