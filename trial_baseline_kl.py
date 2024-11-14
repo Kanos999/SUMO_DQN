@@ -23,7 +23,7 @@ if __name__ == "__main__":
         route_file="intersection/episode_routes.rou.xml",
         out_csv_name="outputs/intersection/dqn",
         single_agent=True,
-        use_gui=True,
+        use_gui=False,
         num_seconds=5400,
         yellow_time=4,
         min_green=5,
